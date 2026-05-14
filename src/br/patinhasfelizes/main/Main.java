@@ -1,9 +1,12 @@
 package br.patinhasfelizes.main;
 
-import static javax.swing.JOptionPane.*;
+
+import br.patinhasfelizes.util.Util;
 
 public class Main {
     public static void main(String[] args) {
+        new Util().menu();
+
 
     }
 }

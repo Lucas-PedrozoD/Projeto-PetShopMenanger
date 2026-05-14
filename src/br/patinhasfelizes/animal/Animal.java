@@ -9,7 +9,13 @@ public abstract class Animal {
         this.peso = peso;
     }
 
+    public String getNome() {
+        return nome;
+    }
 
+    public double getPeso() {
+        return peso;
+    }
 
     public abstract double calcularPesoBase();
 }

@@ -1,6 +1,8 @@
 package br.patinhasfelizes.animal;
 
-public class Gato extends Animal{
+
+
+public class Gato extends Animal  {
 
     private int tamanhoPelos;
 
@@ -17,4 +19,6 @@ public class Gato extends Animal{
             return 65;
         }
     }
+
+
 }

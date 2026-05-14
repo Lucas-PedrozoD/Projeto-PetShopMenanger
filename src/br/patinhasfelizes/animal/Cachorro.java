@@ -1,5 +1,7 @@
 package br.patinhasfelizes.animal;
 
+
+
 public class Cachorro extends Animal {
 
     public Cachorro(String nome, double peso) {
@@ -19,4 +21,6 @@ public class Cachorro extends Animal {
             return 85;
         }
     }
+
+
 }

@@ -2,7 +2,8 @@ package br.patinhasfelizes.servico;
 
 import br.patinhasfelizes.animal.Animal;
 
-public class Banho extends Servico {
+
+public class Banho extends Servico  {
 
     public Banho(String descricao, int duracaoMin) {
         super(descricao, duracaoMin);
@@ -11,4 +12,7 @@ public class Banho extends Servico {
     public double calcularCusto(Animal animal) {
         return animal.calcularPesoBase() + (duracaoMin * 0.50);
     }
+
+
+
 }

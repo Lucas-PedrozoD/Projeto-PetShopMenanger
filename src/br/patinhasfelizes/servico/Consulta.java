@@ -2,7 +2,9 @@ package br.patinhasfelizes.servico;
 
 import br.patinhasfelizes.animal.Animal;
 
-public class Consulta extends Servico {
+
+
+public class Consulta extends Servico  {
 
     final Double taxaDeConsulta = 35.00;
 
@@ -13,4 +15,8 @@ public class Consulta extends Servico {
     public double calcularCusto(Animal animal) {
         return animal.calcularPesoBase() + taxaDeConsulta;
     }
+
+
+
+
 }
