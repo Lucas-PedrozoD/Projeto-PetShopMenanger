@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 
 public class PetShop implements Relatorio, Calculavel {
-    ArrayList<Animal> listaAnimal = new ArrayList<>();
+    public ArrayList<Animal> listaAnimal = new ArrayList<>();
     ArrayList<Servico> listaServico = new ArrayList<>();
     ArrayList<Atendimento> listaAtendimento = new ArrayList<>();
 
